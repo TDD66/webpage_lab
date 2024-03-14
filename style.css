@@ -1,3 +1,114 @@
+/* HEADER & FOOTER: */
+
 header {
+    background-color: #FBCF23;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 60px;
+}
+
+header h1 {
+    font-size: 75px;
+}
+
+header h2 {
+    font-style: italic;
+    background-color: #FCDC5F;
+}
+
+header p {
+    text-shadow: 4px 4px orange
+}
+
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #FBCF23;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+footer nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* BOOKS */
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    margin: 5%;
+}
+
+.content {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: text-top;
+}
+
+.content h3 {
+    font-size: 40px;
     
+}
+
+.content h4 {
+    color: #E2C044;
+}
+
+.books img {
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 20px 10px 10px #7DCADE;
+}
+
+.book button {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+    background-color: orange;
+    border: 2px solid #FCDC5F;
+    font-weight: 500;
 }
